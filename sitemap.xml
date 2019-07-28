@@ -11,17 +11,17 @@
   </url>
   
   <url>
+    <loc>https://jongse-park.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jongse-park.github.io/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jongse-park.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jongse-park.github.io/</loc>
     <priority>0</priority>
   </url>
   
