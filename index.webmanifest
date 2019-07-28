@@ -1,8 +1,8 @@
 {
   "name": "Jongse Park",
   "lang": "en-us",
-  "theme_color": "hsl(339, 90%, 68%)",
-  "background_color": "hsl(339, 90%, 68%)",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",
