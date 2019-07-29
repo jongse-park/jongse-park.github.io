@@ -4,20 +4,51 @@
   
   <url>
     <loc>https://jongse-park.github.io/authors/admin/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jongse-park.github.io/authors/jongse/</loc>
+    <loc>https://jongse-park.github.io/publication_types/1/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jongse-park.github.io/publication/conference-paper/</loc>
-    <priority>0</priority>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jongse-park.github.io/authors/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/publication_types/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/publication/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/authors/robert-ford/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/authors/jongse/</loc>
   </url>
   
   <url>
@@ -26,21 +57,7 @@
   </url>
   
   <url>
-    <loc>https://jongse-park.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jongse-park.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jongse-park.github.io/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jongse-park.github.io/publication/</loc>
   </url>
   
   <url>
