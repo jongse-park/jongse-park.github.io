@@ -48,6 +48,18 @@
   </url>
   
   <url>
+    <loc>https://jongse-park.github.io/tags/source-themes/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jongse-park.github.io/tags/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jongse-park.github.io/authors/jongse/</loc>
   </url>
   
@@ -62,11 +74,6 @@
   
   <url>
     <loc>https://jongse-park.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jongse-park.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
