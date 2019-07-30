@@ -1,0 +1,218 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<link rel="stylesheet" type="text/css" href="flexjava-style.css" />
+<link rel="icon" href="https://research.cc.gatech.edu/act-lab/sites/edu.act-lab/files/ACT-logo-scaled_1.png" type="image/png">
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="description" content="Artifact: Linux Driver Revisions for Regression Verification" />
+<meta name="keywords" content="Incremental Model Checking Regression Verification" />
+<title>FlexJava</title>
+</head>
+
+<body>
+<div class="paper" id="content">
+<div class="heading">
+<h1>FlexJava: Language Support for Safe and Modular Approximate Programming</h1>
+<!-- <h1>FlexJava<br/> &mdash; <small>ESEC/FSE Evaluated Artifact Collection</small> &mdash;</h1> -->
+<p class="authors">
+<a href="http://www.cc.gatech.edu/~jpark632/">Jongse Park</a>, <a href="http://www.cc.gatech.edu/~hadi/">Hadi Esmaeilzadeh</a>, <a href="http://www.cc.gatech.edu/~xzhang36/">Xin Zhang</a>,  <a href="http://pag.gatech.edu/naik/">Mayur Naik</a>, and <a href="http://www.cc.gatech.edu/~wharris/">William Harris</a>
+<!-- <p class="authors">
+<a href="http://act-lab.org/"><b>Alternative Computing Technology(ACT) Lab</b></a>
+<p> -->
+<p class="authors">
+<!-- <a href="http://www.gatech.edu/"><b>Georgia Institute of Technology</b></a> -->
+<b>Georgia Institute of Technology</b>
+<p>
+</div>
+
+<h2>Overview</h2>
+
+In the paper, we describe <b><font face="Courier">FlexJava</font></b> , a small set of language extensions, that significantly reduces the annotation effort, paving the way for practical approximate programming. These extensions enable programmers to annotate approximation-tolerant method outputs. 
+<br><br>
+The <b><font face="Courier">FlexJava</font></b>  compiler, which is equipped with an approximation safety analysis, automatically infers the operations and data that affect these outputs and selectively marks them approximable while giving safety guarantees. The automation and the language–compiler codesign relieve programmers from manually and explicitly annotating data declarations or operations as safe to approximate. FlexJava is designed to support safety, modularity, generality, and scalability in software development. 
+<br><br>
+We have implemented <b><font face="Courier">FlexJava</font></b>  annotations as a Java library and we demonstrate its practicality using a wide range of Java applications. 
+
+This replication package contains the <b><font face="Courier">FlexJava</font></b> compiler that supports fine-grained and coarse-grained approximation.
+Note that <b><font face="Courier">FlexJava</font></b> language/compiler are able to support general types of coarse-grained approximation technologies but here we provide NPU framework as an example of its use.
+For fine-grained approximation, we also included the modified EnerJ simulator that allows you to execute <b><font face="Courier">FlexJava</font></b> binaries for quality and energy measurement. 
+Moreover, all the benchmarks that we used for experiments in the paper are included in the package. 
+<br><br>
+<!-- Note that the package only supports the fine-grained approximate language. We performed the experiments for coarse-grained approximation (NPU) using the infrastructure that we built for previous work.  -->
+
+<h2>Download Tools</h2>
+
+<!-- We created a VHD (Virtual Hard Disk) on VirtualBox so that your can readily download the entire image file and run the experiments without manually installing all the tools and setting up environments. 
+You can access the image file in the following link: -->
+
+<!-- 
+<table class="booktabs">
+<tbody>
+-->
+<!-- <tr><td><a href="https://www.dropbox.com/s/7hfa4fl5z107kd1/ubuntu%2064.vhd?dl=0">https://www.dropbox.com/s/7hfa4fl5z107kd1/ubuntu%2064.vhd?dl=0</a></td></tr> --> 
+<!-- 
+<tr><td><a href="http://taftan.cc.gt.atl.ga.us/r2.vmimage/Ubuntu.vhd">http://taftan.cc.gt.atl.ga.us/r2.vmimage/Ubuntu.vhd</a></td></tr>
+</tbody>
+</table>
+-->
+
+We have Git repositories in the following Bitbucket pages:
+<!-- For users who want to just investigate the source code, we also have Git repositories in the following Bitbucket pages: -->
+
+<table class="booktabs">
+<tbody>
+<tr><td>Fine-grained <b><font face="Courier">FlexJava</font></b>:  &nbsp&nbsp<a href="https://bitbucket.org/act-lab/r2.code">https://bitbucket.org/act-lab/r2.code</a></td></tr>
+<tr><td>Coarse-grained <b><font face="Courier">FlexJava</font></b>:  &nbsp&nbsp<a href="https://bitbucket.org/act-lab/flexjava.npubench">https://bitbucket.org/act-lab/flexjava.npubench</a></td></tr>
+</tbody>
+</table>
+
+Or you can just type the following command to clone the Git repository into your local machine:
+
+<table class="booktabs">
+<tbody>
+<tr><td>Fine-grained <b><font face="Courier">FlexJava</font></b>:  &nbsp&nbspgit clone https://bitbucket.org/act-lab/r2.code.git</td></tr>
+<tr><td>Coarse-grained <b><font face="Courier">FlexJava</font></b>:  &nbsp&nbspgit clone https://bitbucket.org/act-lab/flexjava.npubench.git</td></tr>
+</tbody>
+</table>
+
+The Bitbucket pages have detailed README files explaining how to setup the tools and run the analysis. The source code embedded in the VM image have the same version of the Git repositories. 
+
+<h2>Instructions</h2>
+
+This instruction assume that you have downloaded the VHD file (VM imagefile) and built the VM environment with virtualization tools such as VirtualBox. If you explore the source code, you may need to follow the instructions in the Bitbucket pages and setup a proper environment first. 
+
+<h3>Fine-grained Approximation</h3>
+
+<br><h4>Build Tools</h4><br>
+
+We have already installed and built all source code necessary to run the analysis and simulation.
+You can find the files under <b>r2.code</b> directory of the home directory:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~$ <b>cd r2.code</b></i></td></tr>
+</tbody>
+</table>
+
+If you want to modify the source code and rebuild the tools, simply type the following:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/r2.code$ <b>./build.sh</b></i></td></tr>
+</tbody>
+</table>
+
+<br><h4>Program with FlexJava</h4><br>
+
+All the benchmarks are placed under <b>r2.apps</b> directory. 
+
+<ul>
+  <li><b>sor, smm, mc, fft, lu</b>: SciMark2 benchmark (science kernels)</li>
+  <li><b>sobel</b>: Image edge detection</li>
+  <li><b>simpleRaytracer(raytracer)</b>: 3D image renderer</li>
+  <li><b>jmeint</b>: jMonKeyEngine game (triangle intersection kernel)</li>
+  <li><b>zxing</b>: Bar code decoder for mobile phones</li>
+</ul>
+
+<!-- As discussed in the paper, <b>hessian</b>(Interest point detection) is not compatible with EnerJ framework so it is excluded from the package. 
+<br><br>-->
+The source code have already been annotated with <b><font face="Courier">FlexJava</font></b> annotations.
+You can find the source code at <b><i>src</i></b> directory of the individual benchmark directory. 
+
+<br><br><br><h4>Run Approximation Safety Analysis</h4><br>
+
+We are now ready to run the analysis and observe the results. Let's go with one of the benchmarks, <b><i>mc</i></b>.
+In order to run the analysis, you can simply type the following commands:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/r2.code$ <b>cd r2.apps/mc</b></i></td></tr>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/r2.code/r2.apps/mc$ <b>./analyze.py</b></i></td></tr>
+</tbody>
+</table>
+
+This sciript will (1) compile the source code, (2) run the analysis, and (3) perform the source code hightlighting (back annotation) on a replicated source directory, <b><i>src-marked</i></b>. You can observe where the approximation is applied in the src-marked directory and if you are not satisfied with the results, you would be able to modify the annotations in the source code directory <b><i>src</i></b> and rerun the analysis by typing "<b><i>./analyze.py</i></b>".
+
+<br><br><br><h4>Run Simulation</h4><br>
+
+If the analysis results are satisfactory, we can move on to the next step, simulation. 
+The script for running simulation, <b><i>runsimulation.py</i></b>, takes an argument, which specifies a system model that you want to simulate on. There are four system models that are supported by EnerJ simulator.
+
+<ul>
+  <li><b>aggressive</b></li>
+  <li><b>high</b></li>
+  <li><b>medium</b></li>
+  <li><b>low</b></li>
+</ul>
+
+For example, when you want to run simulation on the <b>medium</b> system model, you can type the following command:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/r2.code/r2.apps/mc$ <b>./runsimulation.py medium</b></i></td></tr>
+</tbody>
+</table>
+
+Note that since the architecture model in the simulator is probabilistic, we ran the experiments multiple times and averaged to get the results in the paper. For the reason, the results from your simulation may not be exactly matched with the results provided in the paper. 
+
+<h3>Coarse-grained Approximation (NPU)</h3>
+
+<br><h4>Program with FlexJava</h4><br>
+
+NPU benchmarks and tools that we used are based on AxBench (<a href=http://axbench.org/>http://axbench.org/</a>) and they are ported from C/C++ to Java. You can find the files in <b>flexjava.npubench</b> directory under the home directory of the VHD image. 
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~$ <b>cd flexjava.npubench</b></i></td></tr>
+</tbody>
+</table>
+
+The "<b>application.java</b>" directory contains the four benchmarks (fft, jmeint, sobel, and simpleRaytracer) that have been evaluated in the paper for coarse-grained approximation (NPU). Let's have a look an example, <b>sobel</b>. 
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/flexjava.npubench$ <b>cd applications.java/sobel</b></i></td></tr>
+</tbody>
+</table>
+
+<br><h4>Build Benchmark</h4><br>
+
+We have a <i>Makefile</i> that performs the necessary preprocessing for annotations using C/C++-based AxBench tools and compiles the processed Java source code. Simply you can type the following:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/flexjava.npubench/applications.java/sobel$ <b>make</b></i></td></tr>
+</tbody>
+</table>
+
+<br><h4>Run NPU Code</h4><br>
+
+We have a script that (1) trains the specified approximable region, (2) algorithmically transforms the region into a neural network, and (3) run the transformed program using a machine learning library, FANN (<a href="http://leenissen.dk/fann/wp/">http://leenissen.dk/fann/wp/</a>). To run the script, follow the commands below:
+
+<table class="booktabs">
+<tbody>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/flexjava.npubench/applications.java/sobel$ <b>cd ../..</b></i></td></tr>
+<tr><td><i>flexjava@FSE-Artifact-Evaluation:~/flexjava.npubench$ <b>./run_java.sh run sobel</b></i></td></tr>
+</tbody>
+</table>
+
+Then you will see the compilation parameters required for training (e.g. learning rate). You can give any values to the parameters but the followings are the default values that you can pass:
+
+<table class="booktabs">
+<tbody>
+<tr><td><b><font color="#0002a4">Learning rate [0.1-1.0]: </font></b> <b>0.1</b></td></tr>
+<tr><td><b><font color="#0002a4">Epoch number [1-10000]: </font></b> <b>1</b></td></tr>
+<tr><td><b><font color="#0002a4">Sampling rate [0.1-1.0]: </font></b> <b>0.1</b></td></tr>
+<tr><td><b><font color="#0002a4">Test data fraction [0.1-1.0]: </font></b> <b>0.5</b></td></tr>
+<tr><td><b><font color="#0002a4">Maximum number of layers [3|4]: </font></b> <b>3</b></td></tr>
+<tr><td><b><font color="#0002a4">Maximum number of neurons per layer [2-64]: </font></b> <b>2</b></td></tr>
+</tbody>
+</table>
+
+
+
+</div>
+</body>
+</html>
