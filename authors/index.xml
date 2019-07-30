@@ -7,7 +7,6 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Jongse Park. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jongse-park.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,22 +14,13 @@
     <item>
       <title></title>
       <link>https://jongse-park.github.io/authors/admin/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jongse-park.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>https://jongse-park.github.io/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -45,96 +35,6 @@ If you&amp;rsquo;re interested in joining my research group, please apply to the
 &lt;a href=&#34;files/statements/research.pdf&#34;&gt;Research Statement&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;files/statements/teaching.pdf&#34;&gt;Teaching Statement&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A. Schwing</title>
-      <link>https://jongse-park.github.io/authors/a.-schwing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/a.-schwing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>H. Esmaeilzadeh</title>
-      <link>https://jongse-park.github.io/authors/h.-esmaeilzadeh/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/h.-esmaeilzadeh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>J. Park</title>
-      <link>https://jongse-park.github.io/authors/j.-park/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/j.-park/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>M. Alian</title>
-      <link>https://jongse-park.github.io/authors/m.-alian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/m.-alian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>N. Kim</title>
-      <link>https://jongse-park.github.io/authors/n.-kim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/n.-kim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>P. Pan</title>
-      <link>https://jongse-park.github.io/authors/p.-pan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/p.-pan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Q. Zheng</title>
-      <link>https://jongse-park.github.io/authors/q.-zheng/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/q.-zheng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R. Wang</title>
-      <link>https://jongse-park.github.io/authors/r.-wang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/r.-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Y. Li</title>
-      <link>https://jongse-park.github.io/authors/y.-li/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/y.-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Y. Yuan</title>
-      <link>https://jongse-park.github.io/authors/y.-yuan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/authors/y.-yuan/</guid>
-      <description></description>
     </item>
     
   </channel>
