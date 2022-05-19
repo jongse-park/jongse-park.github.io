@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jongse-park.github.io/recruitment/</loc>
     <lastmod>2022-05-19T09:12:56+09:00</lastmod>
+<<<<<<< HEAD
   </url>
   
   <url>
@@ -25,11 +25,19 @@
   </url>
   
   <url>
+=======
+  </url><url>
+    <loc>https://jongse-park.github.io/authors/admin/</loc>
+  </url><url>
+    <loc>https://jongse-park.github.io/authors/</loc>
+  </url><url>
+    <loc>https://jongse-park.github.io/categories/</loc>
+  </url><url>
+    <loc>https://jongse-park.github.io/</loc>
+  </url><url>
+>>>>>>> 20b918ffd472cd2ea4dd830e9663f9f2c2e1cce8
     <loc>https://jongse-park.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jongse-park.github.io/tags/</loc>
   </url>
-  
 </urlset>

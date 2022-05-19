@@ -13,12 +13,20 @@
     
     
     <item>
+<<<<<<< HEAD
       <title>Internship Positions</title>
+=======
+      <title>Recruitment</title>
+>>>>>>> 20b918ffd472cd2ea4dd830e9663f9f2c2e1cce8
       <link>https://jongse-park.github.io/recruitment/</link>
       <pubDate>Thu, 19 May 2022 09:12:56 +0900</pubDate>
       
       <guid>https://jongse-park.github.io/recruitment/</guid>
+<<<<<<< HEAD
       <description>&lt;h5 id=&#34;we-are-looking-for-undergraduate-interns&#34;&gt;We are looking for undergraduate interns!&lt;/h5&gt;
+=======
+      <description>&lt;h2 id=&#34;tba&#34;&gt;TBA&lt;/h2&gt;
+>>>>>>> 20b918ffd472cd2ea4dd830e9663f9f2c2e1cce8
 </description>
     </item>
     
