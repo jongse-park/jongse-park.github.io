@@ -11,5 +11,15 @@
 	    <atom:link href="https://jongse-park.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Recruitment</title>
+      <link>https://jongse-park.github.io/recruitment/</link>
+      <pubDate>Thu, 19 May 2022 09:12:56 +0900</pubDate>
+      
+      <guid>https://jongse-park.github.io/recruitment/</guid>
+      <description>&lt;h2 id=&#34;tba&#34;&gt;TBA&lt;/h2&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
