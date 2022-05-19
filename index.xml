@@ -13,17 +13,19 @@
     
     
     <item>
-      <title>CASYS 연구실 인턴십 모집</title>
+      <title>CASYS Lab Internship Positions</title>
       <link>https://jongse-park.github.io/recruitment/</link>
       <pubDate>Thu, 19 May 2022 09:12:56 +0900</pubDate>
       
       <guid>https://jongse-park.github.io/recruitment/</guid>
-      <description>&lt;h3 id=&#34;casys---&#34;&gt;CASYS 연구실 인턴십 모집&lt;/h3&gt;
-&lt;p&gt;CASYS 연구실에서는 인턴십을 모집합니다.&lt;/p&gt;
-&lt;h5 id=&#34;topics&#34;&gt;Topics&lt;/h5&gt;
+      <description>&lt;h3 id=&#34;we-are-looking-for-highly-motivated-undergraduate-interns&#34;&gt;We are looking for highly motivated undergraduate interns!&lt;/h3&gt;
+&lt;p&gt;Note: this internship positions are for Prof. Jongse Park&#39;s group.&lt;/p&gt;
+&lt;h5 id=&#34;research-topics&#34;&gt;Research Topics&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;Test1&lt;/li&gt;
-&lt;li&gt;Test2&lt;/li&gt;
+&lt;li&gt;HW/SW co-design for system software acceleration&lt;/li&gt;
+&lt;li&gt;Hardware acceleration for machine leraning workloads (e.g., DNN training)&lt;/li&gt;
+&lt;li&gt;Acceleration of DNN-based video analytics systems&lt;/li&gt;
+&lt;li&gt;Computing stack design for accelerated systems (e.g., language, compiler, runtime, and hardware)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
