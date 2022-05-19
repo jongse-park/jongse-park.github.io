@@ -7,9 +7,20 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Jongse Park. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2022 09:12:56 +0900</lastBuildDate>
     
 	    <atom:link href="https://jongse-park.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Internship Positions</title>
+      <link>https://jongse-park.github.io/recruitment/</link>
+      <pubDate>Thu, 19 May 2022 09:12:56 +0900</pubDate>
+      
+      <guid>https://jongse-park.github.io/recruitment/</guid>
+      <description>&lt;h5 id=&#34;we-are-looking-for-undergraduate-interns&#34;&gt;We are looking for undergraduate interns!&lt;/h5&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
