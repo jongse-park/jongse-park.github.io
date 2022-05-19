@@ -26,7 +26,7 @@
 &lt;li&gt;&lt;i&gt;Acceleration for machine leraning workloads (e.g., DNN training)&lt;/i&gt;&lt;/li&gt;
 &lt;li&gt;&lt;i&gt;DNN-based video analytics systems&lt;/i&gt;&lt;/li&gt;
 &lt;li&gt;&lt;i&gt;Processing-in-Memory (PIM)&lt;/i&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i&gt;Accelerated system with CXL&lt;/i&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;CXL-enabled accelerated systems&lt;/i&gt;&lt;/li&gt;
 &lt;li&gt;&lt;i&gt;Computing stack design for accelerated systems (e.g., language, compiler, runtime, and hardware)&lt;/i&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;eligibility&#34;&gt;Eligibility&lt;/h4&gt;
