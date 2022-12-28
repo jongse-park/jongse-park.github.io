@@ -7,6 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Jongse Park. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 19 May 2022 09:12:56 +0900</lastBuildDate>
     
 	    <atom:link href="https://jongse-park.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +19,7 @@
       
       <guid>https://jongse-park.github.io/recruitment/</guid>
       <description>&lt;h3 id=&#34;we-are-looking-for-highly-motivated-undergraduate-interns&#34;&gt;We are looking for highly motivated undergraduate interns!&lt;/h3&gt;
-&lt;p&gt;Note: This internship position is for &lt;a href=&#34;https://jongse-park.github.io/&#34;&gt;Prof. Jongse Park&lt;/a&gt;&amp;rsquo;s group within CASYS Lab.
+&lt;p&gt;Note: This internship position is for &lt;a href=&#34;https://jongse-park.github.io/&#34;&gt;Prof. Jongse Park&lt;/a&gt;&#39;s group within CASYS Lab.
 Note: This internship position can be registered as an individual study or a URP.&lt;/p&gt;
 &lt;h5 id=&#34;research-topics&#34;&gt;Research Topics&lt;/h5&gt;
 &lt;ul&gt;
@@ -37,7 +38,7 @@ Note: This internship position can be registered as an individual study or a URP
 &lt;li&gt;Students who have hardware development skills (e.g., Verilog) are preferred, but not required.&lt;/li&gt;
 &lt;li&gt;We are looking for students who would like to commit for at least &amp;ldquo;&lt;u&gt;TWO&lt;/u&gt;&amp;rdquo; semesters (e.g., Summer 2022 &amp;ndash; Winter 2022).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;whats-expected&#34;&gt;What&amp;rsquo;s Expected&lt;/h4&gt;
+&lt;h4 id=&#34;whats-expected&#34;&gt;What&#39;s Expected&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Every student will work on a research project: (1) your own project, or (2) on-going project.&lt;/li&gt;
 &lt;li&gt;You will lead or attend a weekly meeting for the research project.&lt;/li&gt;
@@ -55,6 +56,269 @@ Note: This internship position can be registered as an individual study or a URP
 &lt;li&gt;Schedule an interview with Jongse&lt;/li&gt;
 &lt;li&gt;Start working together! :)&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jongse-park.github.io/deadlines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jongse-park.github.io/deadlines/</guid>
+      <description>
+
+&lt;html&gt;
+  &lt;head&gt;
+    {% include head.html %}
+  &lt;/head&gt;
+  &lt;body&gt;
+    {% include header.html %}
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;page-header&#34;&gt;
+            &lt;div class=&#34;row&#34;&gt;
+                &lt;div class=&#34;col-12 col-sm-12&#34;&gt;
+                  &lt;h1&gt;
+                    {{ site.title }} 
+                  &lt;/h1&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;meta col-12&#34;&gt;
+                  {{ site.description }}.
+                  To add/edit a conference, &lt;a target=&#34;_blank&#34; href=&#34;//github.com/{{ site.github_username }}/{{ site.github_repo }}&#34;&gt;send in a pull request&lt;/a&gt;.
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br&gt;
+            &lt;div class=&#34;row&#34;&gt;
+              &lt;form class=&#34;container&#34;&gt;
+                &lt;div class=&#34;row justify-content-center&#34;&gt;
+                  &lt;div class=&#34;row align-items-md-center col-12 col-10-md&#34;&gt;
+                    &lt;div class=&#34;col-12 col-md-5 filter-label&#34;&gt;
+                      &lt;label for=&#34;subject-select&#34; class=&#34;align-center&#34; style=&#34;margin-bottom: 0px; line-height: 1.5;&#34;&gt;
+                        Subject Filter:
+                      &lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;col-12 col-md-6&#34;&gt;
+                      &lt;select
+                        id=&#34;subject-select&#34;
+                        name=&#34;subject-select&#34;
+                        multiple=&#34;multiple&#34;
+                        style=&#34;display: none&#34;
+                      &gt;
+                        {% for type in site.data.types %}
+                        &lt;option value=&#34;{{type.sub}}&#34; id=&#34;{{type.sub}}-checkbox&#34;&gt;
+                          {{type.name}} ({{type.sub}})
+                        &lt;/option&gt;
+                        {% endfor %}
+                      &lt;/select&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+              &lt;div class=&#34;meta col-12&#34;&gt;
+                &lt;span class=&#34;local-timezone-hide&#34;&gt;
+                  Deadlines are shown in &lt;span class=&#34;local-timezone&#34;&gt;America/New_York&lt;/span&gt; time.
+                  To view them in conference website timezones, click on them.
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&#34;meta col-12&#34;&gt;
+                You can optionally export all deadlines to
+                &lt;a href=&#34;https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics&#34;&gt;Google Calendar&lt;/a&gt; or
+                &lt;a href=&#34;https://jongse-park.github.io/ai-deadlines.ics&#34;&gt;.ics&lt;/a&gt;.
+              &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&#34;confs&#34;&gt;
+        &lt;div id=&#34;coming_confs&#34;&gt;
+          {% for conf in site.data.conferences %}
+          &lt;div id=&#34;{{conf.id}}&#34; class=&#34;ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}&#34;&gt;
+            &lt;div class=&#34;row conf-row&#34;&gt;
+                &lt;div class=&#34;col-6&#34;&gt;
+                  &lt;span class=&#34;conf-title&#34;&gt;
+                      &lt;a title=&#34;{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details&#34; href=&#34;{{site.baseurl}}/conference?id={{ conf.id }}&#34;&gt;{{conf.title}} {{conf.year}}&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;span class=&#34;conf-title-small&#34;&gt;
+                      &lt;a title=&#34;{% if conf.full_name %}{{conf.full_name}}{% else %}Deadline{% endif %} Details&#34; href=&#34;{{site.baseurl}}/conference?id={{ conf.id }}&#34;&gt;{{conf.title}} &#39;{{conf.year | slice: -2, 3}}&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;span class=&#34;conf-title-icon&#34;&gt;
+                    &lt;a title=&#34;Conference Website&#34; href=&#34;{{conf.link}}&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;{{site.baseurl}}/static/img/203-earth.svg&#34; class=&#34;badge-link&#34; alt=&#34;Link to Conference Website&#34; /&gt;&lt;/a&gt;
+                    &amp;ZeroWidthSpace;
+                    {% if conf.paperslink %}
+                      &lt;a title=&#34;Full List of Accepted Papers&#34; href=&#34;{{conf.paperslink}}&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;{{site.baseurl}}/static/img/033-books.svg&#34; class=&#34;badge-link&#34; alt=&#34;Full List of Accepted Papers&#34; /&gt;&lt;/a&gt;
+                    {% endif %}
+                    &amp;ZeroWidthSpace;
+                    {% if conf.pwclink %}
+                      &lt;a title=&#34;Browse All Papers with Code&#34; href=&#34;{{conf.pwclink}}&#34; target=&#34;_blank&#34;&gt;&lt;div class=&#34;icon-inner badge-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;s-ion-icon&#34;&gt;&lt;path d=&#34;M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z&#34;&gt;&lt;/path&gt;&lt;path d=&#34;M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/div&gt;&lt;/a&gt;
+                    {% endif %}
+                    &amp;ZeroWidthSpace;
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;col-6&#34;&gt;
+                  &lt;span class=&#34;timer&#34;&gt;&lt;/span&gt;
+                  &lt;span class=&#34;timer-small&#34;&gt;&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+              &lt;div class=&#34;col-12 col-sm-6&#34;&gt;
+                &lt;div class=&#34;meta&#34;&gt;
+                  &lt;span class=&#34;conf-date&#34;&gt;{{conf.date}}.&lt;/span&gt;
+                  &lt;span class=&#34;conf-place&#34;&gt;
+                    {% if conf.place == &#34;Online&#34; %}
+                    &lt;a href=&#34;#&#34;&gt;{{conf.place}}&lt;/a&gt;.
+                    {% else %}
+                    &lt;a href=&#34;http://maps.google.com/?q={{conf.place}}&#34;&gt;{{conf.place}}&lt;/a&gt;.
+                    {% endif %}
+                  &lt;/span&gt;
+                &lt;/div&gt;
+                {% if conf.note %}
+                  &lt;div class=&#34;note&#34;&gt;
+                      &lt;b&gt;Note: &lt;/b&gt;{{conf.note}}
+                  &lt;/div&gt;
+                {% endif %}
+
+              &lt;/div&gt;
+              &lt;div class=&#34;col-12 col-sm-6&#34;&gt;
+                &lt;div class=&#34;deadline&#34;&gt;
+                  &lt;div&gt;Deadline:
+                    &lt;span class=&#34;deadline-time&#34;&gt;&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;calendar&#34;&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;row&#34;&gt;
+              &lt;div class=&#34;col-12&#34;&gt;
+                {% for sub in conf.sub %}
+                &lt;span title=&#34;Click to only show {{sub}} conferences&#34; data-sub=&#34;{{sub}}&#34; class=&#34;conf-sub {{sub}}-tag&#34;&gt;&lt;/span&gt;
+                {% endfor %}
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;hr&gt;
+          &lt;/div&gt;
+          {% endfor %}
+        &lt;/div&gt;
+        &lt;div id=&#34;past_confs&#34;&gt;
+          &lt;h1 id=&#34;past-events-title&#34;&gt;Past Events&lt;/h1&gt;
+          &lt;div id=&#34;sort-order-checkbox&#34;&gt;
+                &lt;label for=&#34;sort-order&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sort-order&#34; name=&#34;sort-order&#34; checked&gt;Most recent first&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;footer&gt;
+            {% include footer.html %}
+      &lt;/footer&gt;
+      &lt;br&gt;&lt;br&gt;
+    &lt;/div&gt;
+    &lt;script type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;
+    $(function() {
+        // Make sure this is &gt;= no. of subs
+        // Currently not used
+        var colors = [&#39;#341f97&#39;, &#39;#ee5253&#39;, &#39;#2e86de&#39;,
+                      &#39;#ff9f43&#39;, &#39;#10ac84&#39;, &#39;#222f3e&#39;]
+
+        
+        {% include load_data.js %}
+        {% include utils.js %}
+        {% include multiselect_handler.js %}
+
+        addUtcTimeZones();
+
+        try {
+          var local_timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+          $(&#39;.local-timezone&#39;).text(local_timezone.toString());
+        }
+        catch(err) {
+          $(&#39;.local-timezone-hide&#39;).hide();
+        }
+
+        {% for conf in site.data.conferences %}
+        {% for sub in conf.sub %}
+        $(&#39;#{{conf.id}} .{{sub}}-tag&#39;).html(sub2name[&#34;{{sub}}&#34;].toLocaleLowerCase());
+        {% endfor %}
+        {% if conf.deadline == &#34;TBA&#34; %}
+          $(&#39;#{{conf.id}} .timer&#39;).html(&#34;TBA&#34;);
+          $(&#39;#{{conf.id}} .deadline-time&#39;).html(&#34;TBA&#34;);
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}&#34;{{conf.timezone}}&#34; {% else %} &#34;America/New_York&#34; {% endif %};
+          var confDate = moment.tz(&#34;{{conf.deadline}}&#34;, timezone);
+
+          // render countdown timer
+          $(&#39;#{{conf.id}} .timer&#39;).countdown(confDate.toDate(), function (event) {
+              $(this).html(event.strftime(&#39;%D days %Hh %Mm %Ss&#39;));
+          });
+
+          // render countdown timer small
+          $(&#39;#{{conf.id}} .timer-small&#39;).countdown(confDate.toDate(), function (event) {
+              $(this).html(event.strftime(&#39;%Dd %H:%M:%S&#39;));
+          });
+
+          // convert deadline to local timezone
+          try {
+            var localConfDate = moment.tz(confDate, local_timezone);
+            $(&#39;#{{conf.id}} .deadline-time&#39;).html(localConfDate.toString());
+          }
+          catch(err) {
+            console.log(&#34;Error converting to local timezone.&#34;);
+          }
+
+          // add calendar button
+          var myCalendar = createCalendarFromObject({
+            id:  &#39;{{conf.id}}&#39;,
+            title: &#39;{{conf.title}} {{conf.year}} deadline&#39;,
+            date: confDate.toDate(),
+            duration: 60,
+          })
+          document.querySelector(&#39;#{{conf.id}} .calendar&#39;).appendChild(myCalendar);
+
+          // check if date has passed, add &#39;past&#39; class to it
+          var today = moment();
+          diff = today.diff(confDate);
+
+          $(&#39;#{{conf.id}}&#39;).attr(&#34;diff&#34;, diff)
+          if (diff &gt; 0) {
+            $(&#39;#{{conf.id}}&#39;).addClass(&#39;past&#39;);
+            $(&#39;#{{conf.id}}&#39;).appendTo($(&#34;#past_confs&#34;))
+            $(&#39;#{{conf.id}} .timer&#39;).replaceWith($(&#39;#{{conf.id}} .deadline&#39;));
+            $(&#39;#{{conf.id}} .timer-small&#39;).replaceWith($(&#39;#{{conf.id}} .deadline&#39;));
+            $(&#39;#{{conf.id}} .calendar&#39;).remove();
+          }
+        {% endif %}
+        {% endfor %}
+
+        // Sort coming_confs and past_confs
+        $(&#34;#coming_confs .ConfItem&#34;).sort(function (a, b) {
+          return $(b).attr(&#39;diff&#39;) - $(a).attr(&#39;diff&#39;);
+        }).appendTo($(&#34;#coming_confs&#34;));
+
+        $(&#34;#sort-order-checkbox input&#34;).on(&#34;click&#34;, function() {
+          if ($(&#34;#sort-order-checkbox input&#34;).is(&#34;:checked&#34;)) {
+            $(&#34;#past_confs .ConfItem&#34;).sort(function (a, b) {
+              return $(a).attr(&#39;diff&#39;) - $(b).attr(&#39;diff&#39;);
+            }).appendTo($(&#34;#past_confs&#34;));
+          } else {
+            $(&#34;#past_confs .ConfItem&#34;).sort(function (a, b) {
+              return $(b).attr(&#39;diff&#39;) - $(a).attr(&#39;diff&#39;);
+            }).appendTo($(&#34;#past_confs&#34;));
+          }
+        });
+
+        {% include handle_url_retrieval.js %}
+
+        // Event handler on sub badge click
+        $(&#39;.conf-sub&#39;).click(function (e) {
+            var csub = $(this).data(&#39;sub&#39;);
+            subs = [csub];
+            $(&#34;#subject-select&#34;).multiselect(&#39;deselect&#39;, all_subs);
+            $(&#34;#subject-select&#34;).multiselect(&#39;select&#39;, subs);
+            update_filtering({ subs: subs, all_subs: all_subs});
+        });
+
+    });
+    {% include google_analytics.js %}
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </description>
     </item>
     
