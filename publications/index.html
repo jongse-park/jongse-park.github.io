@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jongse Park">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Conference 2024 Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems
+Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, Jongse Park, Jaehyuk Huh
+ICCD, 2024 [Paper]
+LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale
+Jaehong Cho, Minsu Kim, Hyunmin Choi, Guseul Heo, Jongse Park
+IISWC, 2024 [Paper|Talk|Code] Best Paper Award &amp; Distinguished Artifact Award Accelerating String-key Learned Index Structures via Memoization-based Incremental Training
+Minsu Kim, Jinwoo Hwang, Guseul Heo, Seiyeon Cho, Divya Mahajan, Jongse Park">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://jongse-park.github.io/publications/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.91c8b6841541f131b046c9a1ad9b2a94.css">
+
+  
+    
+    
+    
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.965c11aa78f75f9958130b3daf56e57c.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-50373934-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://jongse-park.github.io/publications/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Jongse Park">
+  <meta property="og:url" content="https://jongse-park.github.io/publications/">
+  <meta property="og:title" content="Publications | Jongse Park">
+  <meta property="og:description" content="Conference 2024 Interference-Aware DNN Serving on Heterogeneous Processors in Edge Systems
+Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, Jongse Park, Jaehyuk Huh
+ICCD, 2024 [Paper]
+LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale
+Jaehong Cho, Minsu Kim, Hyunmin Choi, Guseul Heo, Jongse Park
+IISWC, 2024 [Paper|Talk|Code] Best Paper Award &amp; Distinguished Artifact Award Accelerating String-key Learned Index Structures via Memoization-based Incremental Training
+Minsu Kim, Jinwoo Hwang, Guseul Heo, Seiyeon Cho, Divya Mahajan, Jongse Park"><meta property="og:image" content="https://jongse-park.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://jongse-park.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+
+  
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144733944-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144733944-1');
+</script>
+
+
+
+
+  <title>Publications | Jongse Park</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Jongse Park</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#news"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/experiences/"><span>Experiences</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people/"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/publications/"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/services/"><span>Services</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Publications</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="" itemprop="datePublished">
+<meta content="" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <h2 id="conference"><strong>Conference</strong></h2>
+<hr>
+<h2 id="span-stylefont-size-08em2024span"><span style="font-size: 0.8em;">2024</span></h2>
+<p><strong>Interference-Aware DNN Serving on Heterogeneous Processors in Edge
+Systems</strong><br>
+<span style="color:#666666">Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, <u>Jongse Park</u>, Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">ICCD</span>, 2024</em> [<a href="files/paper/2024-iccd-interference.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale</strong><br>
+<span style="color:#666666">Jaehong Cho, Minsu Kim, Hyunmin Choi, Guseul Heo, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">IISWC</span>, 2024</em> [<a href="files/paper/2024-iiswc-llmservingsim.pdf"  style="color: #1D90FF;">Paper</a>|<a href="files/paper/2024-iiswc-llmservingsim.pdf" style="color: #FF8C00;">Talk</a>|<a href="https://github.com/casys-kaist/LLMServingSim" style="color: #009193;">Code</a>] <br>
+<strong><em><span style="color:#4F8F01;"><b>Best Paper Award &amp; Distinguished Artifact Award</b></span></em></strong> <br></p>
+<p><strong>Accelerating String-key Learned Index Structures via Memoization-based Incremental Training</strong><br>
+<span style="color:#666666">Minsu Kim, Jinwoo Hwang, Guseul Heo, Seiyeon Cho, Divya Mahajan, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">VLDB</span>, 2024</em> [<a href="files/paper/2024-vldb-sia.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2024-vldb-sia.pdf" style="color: #FF8C00;">Talk</a>|<a href="https://github.com/casys-kaist/sia" style="color: #009193;">Code</a>]</p>
+<p><strong>DaCapo: Accelerating Continuous Learning in Autonomous Systems for Video Analytics</strong><br>
+<span style="color:#666666">Yoonsung Kim, Changhun Oh, Jinwoo Hwang, Wonung Kim, Seongryong Oh, Yubin Lee, Hardik Sharma, Amir Yazdanbakhsh, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">ISCA</span>, 2024</em> [<a href="files/paper/2024-isca-dacapo.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2024-isca-dacapo.pdf" style="color: #FF8C00;">Talk</a>|<a href="https://github.com/casys-kaist/DaCapo" style="color: #009193;">Code</a>]<br>
+<strong><em><span style="color:#4F8F01;">Distinguished Artifact Award</span></em></strong></p>
+<p><strong>NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing</strong><br>
+<span style="color:#666666">Guseul Heo, Sangyeop Lee, Jaehong Cho, Hyunmin Choi, Sanghyeon Lee, Hyungkyu Ham, Gwangsun Kim, Divya Mahajan, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">ASPLOS</span>, 2024</em> [<a href="files/paper/2024-asplos-neupims.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2024-asplos-neupims-main.pdf" style="color: #FF8C00;">Talk</a>|<a href="https://github.com/casys-kaist/NeuPIMs" style="color: #009193;">Code</a>]</p>
+<p><strong>Tandem Processor: Grappling with Emerging Operators in Neural Networks</strong><br>
+<span style="color:#666666">Soroush Ghodrati, Sean Kinzer, Hanyang Xu, Rohan Mahapatra, Yoonsung Kim, Byung Hoon Ahn, Dong Kai Wang, Lavanya Karthikeyan, Amir Yazdanbakhsh, <u>Jongse Park</u>, Nam Sung Kim, Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">ASPLOS</span>, 2024</em> [<a href="files/paper/2024-asplos-tandem_processor.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<h2 id="span-stylefont-size-08em2023span"><span style="font-size: 0.8em;">2023</span></h2>
+<p><strong>Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Network</strong><br>
+<span style="color:#666666">Hardik Sharma, <u>Jongse Park</u>, Naveen Suda, Liangzhen Lai, Benson Chau, Vikas Chandra, Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">ISCA</span>, 2023</em>  [<a href="files/paper/2023-isca_retrospective-bitfusion.pdf" style="color: #1D90FF;">Retrospective</a>]<br>
+<strong><em><span style="color:#4F8F01;">Selected for Inclusion in ISCA 25-year Retrospective 1996-2020</span></em></strong></p>
+<p><strong>General-Purpose Code Acceleration with Limited-Precision Analog Computation</strong><br>
+<span style="color:#666666">Renée St. Amant, Amir Yazdanbakhsh, <u>Jongse Park</u>, Bradley Thwaites, Hadi Esmaeilzadeh, Arjang Hassibi, Luis Ceze, and Doug Burger</span><br>
+<em><span style="color:#770001;" style="color: #1D90FF;">ISCA</span>, 2023</em>  [<a href="files/paper/2023-isca_retrospective-anpu.pdf" style="color: #1D90FF;">Retrospective</a>]<br>
+<strong><em><span style="color:#4F8F01;">Selected for Inclusion in ISCA 25-year Retrospective 1996-2020</span></em></strong></p>
+<h2 id="span-stylefont-size-08em2022span"><span style="font-size: 0.8em;">2022</span></h2>
+<p><strong>Tunable Memory Protection for Secure Neural Processing Units</strong><br>
+<span style="color:#666666">Sunho Lee, Seonjin Na, Jungwoo Kim, <u>Jongse Park</u>, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">ICCD</span>, 2022</em> [<a href="files/paper/2022-iccd-snpu.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>Supporting Dynamic Translation Granularity for Hybrid Memory Systems</strong><br>
+<span style="color:#666666">Bokyeong Kim, Soojin Hwang, Sanghoon Cha, Chang Hyun Park, <u>Jongse Park</u>, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">ICCD</span>, 2022</em> [<a href="files/paper/2022-iccd-decoupled.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>CoVA: Exploiting Compressed-Domain Analysis to Accelerate Video Analytics</strong><br>
+<span style="color:#666666">Jinwoo Hwang, Minsu Kim, Daeun Kim, Seungho Nam, Yoonsung Kim, Dohee Kim, Hardik Sharma, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">USENIX ATC</span>, 2022</em> [<a href="files/paper/2022-atc-cova.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2022-atc-cova.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing</strong><br>
+<span style="color:#666666">Seungbeom Choi, Sunho Lee, Yeonjae Kim, <u>Jongse Park</u>, Youngjin Kwon, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">USENIX ATC</span>, 2022</em> [<a href="files/paper/2022-atc-gpulet.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2022-atc-gpulet.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>TNPU: Supporting Trusted Execution with Tree-less Integrity Protection for Neural Processing Unit</strong><br>
+<span style="color:#666666">Sunho Lee, Jungwoo Kim, Seonjin Na, <u>Jongse Park</u>, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">HPCA</span>, 2022</em> [<a href="files/paper/2022-hpca-tnpu.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2022-hpca-tnpu.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<h2 id="span-stylefont-size-08em2021span"><span style="font-size: 0.8em;">2021</span></h2>
+<p><strong>Common Counters: Compressed Encryption Counters for Secure GPU Memory</strong><br>
+<span style="color:#666666">Seonjin Na, Sunho Lee, Yeonjae Kim, <u>Jongse Park</u>, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">HPCA</span>, 2021</em> [<a href="files/paper/2021-hpca-commonctr.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2021-hpca-commoncounters.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<h2 id="span-stylefont-size-08em2020span"><span style="font-size: 0.8em;">2020</span></h2>
+<p><strong>Mixed-Signal Charge-Domain Acceleration of Deep Neural Networks through Interleaved Bit-Partitioned Arithmetic</strong>   <br>
+<span style="color:#666666">Soroush Ghodrati, Hardik Sharma, Sean Kinzer, Amir Yazdanbakhsh, <u>Jongse Park</u>, Nam Sung Kim, Doug Burger, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">PACT</span>, 2020</em> [<a href="files/paper/2020-pact-bihiwe.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2020-pact-bihiwe.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<h2 id="span-stylefont-size-08em2018-or-earlierspan"><span style="font-size: 0.8em;">2018 or earlier</span></h2>
+<p><strong>A Network-Centric Hardware/Algorithm Co-Design to Accelerate Distributed Training of Deep Neural Networks</strong>   <br>
+<span style="color:#666666">Youjie Li, <u>Jongse Park</u>, Mohammad Alian, Yifan Yuan, Zheng Qu, Peitian Pan, Ren Wang, Alexander Gerhard Schwing, Hadi Esmaeilzadeh, and Nam Sung Kim</span><br>
+<em><span style="color:#770001;">MICRO</span>, 2018</em>  [<a href="files/paper/2018-micro-inceptionn.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2018-micro-inceptionn.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>From Tensors to FPGAs: Accelerating Deep Learning</strong><br>
+<span style="color:#666666">Hardik Sharma, <u>Jongse Park</u>, Balavinayagam Samynathan, Behnam Robatmili, Shahrzad Mirkhani, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">HotChips</span>, 2018</em>  [<a href="files/paper/2018-hotchips-dnnweaver2.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/poster/2018-hotchips-dnnweaver2.pdf">Poster</a>|<a href="https://www.youtube.com/watch?v=T7s6oMfjpBw" style="color: #9437FF;">Demo1</a>|<a href="https://www.youtube.com/watch?v=N7vEn54Za-w" style="color: #9437FF;">Demo2</a>]</p>
+<p><strong>Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Networks</strong><br>
+<span style="color:#666666">Hardik Sharma, <u>Jongse Park</u>, Naveen Suda, Liangzhen Lai, Benson Chau, Vikas Chandra, Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">ISCA</span>, 2018</em>  [<a href="files/paper/2018-isca-bitfusion.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2018-isca-bitfusion.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>Scale-Out Acceleration for Machine Learning</strong><br>
+<span style="color:#666666"><u>Jongse Park</u>, Hardik Sharma, Divya Mahajan, Joon Kyung Kim, Preston Olds, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">MICRO</span>, 2017</em>  [<a href="files/paper/2017-micro-cosmic.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2017-micro-cosmic-main.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>AxGames: Towards Crowdsourcing Quality Target Determination in Approximate Computing</strong><br>
+<span style="color:#666666"><u>Jongse Park</u>, Divya Mahajan, Bradley Thwaites, Emmanuel Amaro, and Hadi Esmaeilzadeh </span><br>
+<em><span style="color:#770001;">ASPLOS</span>, 2016</em>  [<a href="files/paper/2016-asplos-axgames.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2016-asplos-axgames-main.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>From High-Level Deep Neural Models to FPGAs</strong><br>
+<span style="color:#666666">Hardik Sharma, <u>Jongse Park</u>, Divya Mahajan, Emmanuel Amaro, Joon Kyung Kim, Chenkai Shao, Asit Mishra, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">MICRO</span>, 2016</em>  [<a href="files/paper/2016-micro-dnn_weaver.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2016-micro-dnn_weaver.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>Towards Statistical Guarantees in Controlling Quality Tradeoffs in Approximate Acceleration</strong><br>
+<span style="color:#666666">Divya Mahajan, Amir Yazdanbaksh, <u>Jongse Park</u>, Bradley Thwaites, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">ISCA</span>, 2016</em>  [<a href="files/paper/2016-isca-mithra.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2016-isca-mithra.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>Tabla: A Unified Template-based Framework for Accelerating Statistical Machine Learning</strong><br>
+<span style="color:#666666">Divya Mahajan, <u>Jongse Park</u>, Emmanuel Amaro, Hardik Sharma, Amir Yazdanbaksh, Joon Kyung Kim, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">HPCA</span>, 2016</em> [<a href="files/paper/2016-hpca-tabla.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2016-hpca-tabla.pdf" style="color: #FF8C00;">Talk</a>]<br>
+<strong><em><span style="color:#4F8F01;">Distinguished Paper Award</span></em></strong></p>
+<p><strong>FlexJava: Language Support for Safe and Modular Approximate Programming</strong><br>
+<span style="color:#666666"><u>Jongse Park</u>, Hadi Esmaeilzadeh, Xin Zhang, Mayur Naik, William Harris</span><br>
+<em><span style="color:#770001;">FSE</span>, 2015</em>  [<a href="files/paper/2015-fse-flexjava.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2015-fse-flexjava.pdf" style="color: #FF8C00;">Talk</a>|<a href="https://jongse-park.github.io/files/flexjava/flexjava.html" style="color: #9437FF;">Artifact</a>]</p>
+<p><strong>Neural Acceleration for GPU Throughput Processors</strong><br>
+<span style="color:#666666">Amir Yazdanbakhsh, <u>Jongse Park</u>, Hardik Sharma, Pejman Lofti-Kamran, and Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;">MICRO</span>, 2015</em>  [<a href="files/paper/2015-micro-ngpu.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2015-micro-ngpu.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>Axilog: Language Support for Approximate Hardware Design</strong><br>
+<span style="color:#666666">Amir Yazdanbakhsh, Divya Mahajan, Bradley Thwaites, <u>Jongse Park</u>, Anandhavel Nagendrakumar, Sindhuja Sethuraman, Kartik Ramkrishnan, Nishanthi Ravindran, Rudra Jariwala, Abbas Rahimi, Hadi Esmaeilzadeh, and Kia Bazargan</span><br>
+<em><span style="color:#770001;">DATE</span>, 2015</em>  [<a href="files/paper/2015-date-axilog.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2015-date-axilog.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>General-Purpose Code Acceleration with Limited-Precision Analog Computation</strong><br>
+<span style="color:#666666">Renée St. Amant, Amir Yazdanbakhsh, <u>Jongse Park</u>, Bradley Thwaites, Hadi Esmaeilzadeh, Arjang Hassibi, Luis Ceze, and Doug Burger</span><br>
+<em><span style="color:#770001;">ISCA</span>, 2014</em>  [<a href="files/paper/2014-isca-anpu.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2014-isca-anpu.pdf" style="color: #FF8C00;">Talk</a>]<br>
+<strong><em><span style="color:#4F8F01;">Honorable Mention in IEEE Micro Top Picks</span></em></strong></p>
+<p><strong>Rollbak-Free Value Prediction with Approximate Loads (Short paper)</strong><br>
+<span style="color:#666666">Bradley Thwaites, Gennady Pekhimenko, Amir Yazdanbakhsh, <u>Jongse Park</u>, Girish Mururu, Hadi Esmaeilzadeh, Onur Mutlu, and Todd Mowry</span><br>
+<em><span style="color:#770001;">PACT</span>, 2014</em>  [<a href="files/paper/2014-pact-rfvp.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>Isolated Mini-domain for Trusted Cloud Computing</strong><br>
+<span style="color:#666666">Jaewon Choi, <u>Jongse Park</u>, Jinho Seol, and Seungryoul Maeng</span><br>
+<em><span style="color:#770001;">CCGrid</span>, 2013</em>  [<a href="files/paper/2013-ccgrid-mini.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>Locality-aware Dynamic VM Reconfiguration on MapReduce Clouds</strong><br>
+<span style="color:#666666"><u>Jongse Park</u>, Daewoo Lee, Bokyeong Kim, Jaehyuk Huh, and Seungryoul Maeng</span><br>
+<em><span style="color:#770001;">HPDC</span>, 2012</em>  [<a href="files/paper/2012-hpdc-drr.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2012-hpdc-drr.pdf" style="color: #FF8C00;">Talk</a>]<br><br></p>
+<h2 id="journal"><strong>Journal</strong></h2>
+<hr>
+<h2 id="span-stylefont-size-08em2024span-1"><span style="font-size: 0.8em;">2024</span></h2>
+<p><strong>ONNXim: A Fast, Cycle-level Multi-core NPU Simulator</strong><br>
+<span style="color:#666666">Hyungkyu Ham*, Wonhyuk Yang*, Yunseon Shin, Okkyun Woo, Guseul Heo, Sangyeop Lee, <u>Jongse Park</u>, Gwangsun Kim</span><br>
+<em><span style="color:#770001;">IEEE Computer Architecture Letters (CAL)</span>, 2024</em> [<a href="files/paper/2024-cal-onnxim.pdf" style="color: #1D90FF;">Paper</a>|<a href="https://github.com/PSAL-POSTECH/ONNXim" style="color: #009193;">Code</a>]</p>
+<p><strong>LPU: A Latency-optimized and Highly Scalable Processor for Large Language Model Inference</strong><br>
+<span style="color:#666666">Seungjae Moon, Jung-Hoon Kim, Junsoo Kim, Seongmin Hong, Junseo Cha, Minsu Kim, Sukbin Lim, Gyubin Choi, Dongjin Seo, Jongho Kim, Hunjong Lee, Hyunjun Park, Ryeowook Ko, Soongyu Choi, <u>Jongse Park</u>, Jinwon Lee, Joo-Young Kim</span><br>
+<em><span style="color:#770001;">IEEE Micro, </span> special issue on Contemporary Industry Products, 2024</em> [<a href="files/paper/2024-ieee_micro-lpu.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>Cerberus: Triple Mode Acceleration of Sparse Matrix and Vector Multiplication</strong><br>
+<span style="color:#666666">Soojin Hwang, Daehyeon Baek, <u>Jongse Park</u>, Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">IEEE Transactions on Architecture and Code Optimization (TACO)</span>, 2024</em> [<a href="files/paper/2024-taco-cerberus.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<h2 id="span-stylefont-size-08em2023span-1"><span style="font-size: 0.8em;">2023</span></h2>
+<p><strong>Hardware Hardened Sandbox Enclaves for Trusted Serverless Computing</strong><br>
+<span style="color:#666666">Joongun Park, Seunghyo Kang, Sanghyeon Lee, Taehoon Kim, <u>Jongse Park</u>, Youngjin Kwon, and Jaehyuk Huh</span><br>
+<em><span style="color:#770001;">IEEE Transactions on Architecture and Code Optimization (TACO)</span>, 2023</em> [<a href="files/paper/2023-taco-cloister.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>FlexBlock: A Flexible DNN Training Accelerator with Multi-Mode Block Floating Point Support</strong><br>
+<span style="color:#666666">Seock-Hwan Noh, Jahyun Koo, Seunghyun Lee, <u>Jongse Park</u>, and Jaeha Kung</span><br>
+<em><span style="color:#770001;">IEEE Transactions on Computers (TC)</span>, 2023</em> [<a href="files/paper/2023-tc-flexblock.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>HAMMER: Hardware-friendly Approximate Computing for Self-attention with Mean-redistribution and Linearization</strong><br>
+<span style="color:#666666">Seonho Lee, Ranggi Hwang, <u>Jongse Park</u>, and Minsoo Rhu</span><br>
+<em><span style="color:#770001;">IEEE Computer Architecture Letters (CAL)</span>, 2023</em> [<a href="files/paper/2023-cal-hammer.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<h2 id="span-stylefont-size-08em2022span-1"><span style="font-size: 0.8em;">2022</span></h2>
+<p><strong>Yin-Yang: Programming Abstraction for Cross-Domain Multi-Acceleration</strong><br>
+<span style="color:#666666">Joon Kyung Kim, Byung Hoon Ahn, Sean Kinzer, Soroush Ghodrati, Rohan Mahapatra, Brahmendra Yatham, Dohee Kim, Parisa Sarikhani, Babak Mahmoudi, Divya Mahajan, <u>Jongse Park</u>, Hadi Esmaeilzadeh</span><br>
+<em><span style="color:#770001;" style="color: #1D90FF;">IEEE Micro, </span> special issue on Compiling for Accelerators, 2022</em>  [<a href="files/paper/2022-ieee_micro-yinyang.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<h2 id="span-stylefont-size-08em2021-or-earlierspan"><span style="font-size: 0.8em;">2021 or earlier</span></h2>
+<p><strong>SLO-aware Inference Scheduler for Heterogeneous Processors in Edge Platforms</strong><br>
+<span style="color:#666666">Wonik Seo, Sanghoon Cha, Yeonjae Kim, Jaehyuk Huh, and <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">IEEE Transactions on Architecture and Code Optimization (TACO)</span>, 2021</em> [<a href="files/paper/2021-taco-edgeduler.pdf" style="color: #1D90FF;">Paper</a>]</p>
+<p><strong>Axilog: Abstractions for Approximate Hardware Design and Reuse</strong><br>
+<span style="color:#666666">Divya Mahajan,  Kartik Ramkrishnan, Rudra Jariwala, Amir Yazdanbakhsh, <u>Jongse Park</u>, Bradley Thwaites, Anandhavel Nagendrakumar, Abbas Rahimi, Hadi Esmaeilzadeh, and Kia Bazargan</span><br>
+<em><span style="color:#770001;">IEEE Micro, </span>, special issue on Alternative Computing Designs and Technologies, 2015</em>  [<a href="files/paper/2015-ieee_micro-axilog.pdf" style="color: #1D90FF;">Paper</a>]<br><br></p>
+<h2 id="workshop"><strong>Workshop</strong></h2>
+<hr>
+<p><strong>LLMServingSim: A Simulation Infrastructure for LLM Inference Serving Systems</strong><br>
+<span style="color:#666666">Jaehong Cho, Minsu Kim, Hyunmin Choi, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">ISCA Workshop on ML for Computer Architecture and Systems (MLArchSys)</span>, 2024</em> [<a href="files/paper/2024-mlarchsys-llmservingsim.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2024-mlarchsys-llmservingsim.pdf" style="color: #FF8C00;">Talk</a>]</p>
+<p><strong>LVS: A Learned Video Storage for Fast and Efficient Video Understanding</strong><br>
+<span style="color:#666666">Yunghee Lee, <u>Jongse Park</u></span><br>
+<em><span style="color:#770001;">CVPR Workshop on Efficient Deep Learning for Computer Vision (ECV)</span>, 2024</em> [<a href="files/paper/2024-ecv-lvs.pdf" style="color: #1D90FF;">Paper</a>|<a href="files/slide/2024-cvpr_ecv-lvs.pdf" style="color: #FF8C00;">Talk</a>]</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.219d0e60afa8a6ab24b00c3fd45b4a00.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
