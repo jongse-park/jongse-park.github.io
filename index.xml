@@ -130,7 +130,8 @@ Systems&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ASPLOS&lt;/span&gt;, 2024&lt;/em&gt; [&lt;a href=&#34;../files/paper/2024-asplos-neupims.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;|&lt;a href=&#34;files/slide/2024-asplos-neupims-main.pdf&#34; style=&#34;color: #FF8C00;&#34;&gt;Talk&lt;/a&gt;|&lt;a href=&#34;https://github.com/casys-kaist/NeuPIMs&#34; style=&#34;color: #009193;&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tandem Processor: Grappling with Emerging Operators in Neural Networks&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Soroush Ghodrati, Sean Kinzer, Hanyang Xu, Rohan Mahapatra, Yoonsung Kim, Byung Hoon Ahn, Dong Kai Wang, Lavanya Karthikeyan, Amir Yazdanbakhsh, &lt;u&gt;Jongse Park&lt;/u&gt;, Nam Sung Kim, Hadi Esmaeilzadeh&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ASPLOS&lt;/span&gt;, 2024&lt;/em&gt; [&lt;a href=&#34;../files/paper/2024-asplos-tandem_processor.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ASPLOS&lt;/span&gt;, 2024&lt;/em&gt; [&lt;a href=&#34;../files/paper/2024-asplos-tandem_processor.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;]
+&lt;strong&gt;&lt;em&gt;&lt;span style=&#34;color:#4F8F01;&#34;&gt;Honorable Mention in IEEE Micro Top Picks&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;span-stylefont-size-08em2023span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2023&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Network&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Hardik Sharma, &lt;u&gt;Jongse Park&lt;/u&gt;, Naveen Suda, Liangzhen Lai, Benson Chau, Vikas Chandra, Hadi Esmaeilzadeh&lt;/span&gt;&lt;br&gt;
