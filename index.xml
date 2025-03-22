@@ -109,6 +109,9 @@
       <description>&lt;h2 id=&#34;conference&#34;&gt;&lt;strong&gt;Conference&lt;/strong&gt;&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;span-stylefont-size-08em2024span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2024&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization&lt;/strong&gt;&lt;br&gt;
+&lt;span style=&#34;color:#666666&#34;&gt;Minsu Kim, Seongmin Hong, RyeoWook Ko, Soongyu Choi, Hunjong Lee, Junsoo Kim, Joo-Young Kim, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ISCA&lt;/span&gt;, 2024&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Interference-Aware DNN Serving on Heterogeneous Processors in Edge
 Systems&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Yeonjae Kim, Igjae Kim, Kwanghoon Choi, Jeongseob Ahn, &lt;u&gt;Jongse Park&lt;/u&gt;, Jaehyuk Huh&lt;/span&gt;&lt;br&gt;
