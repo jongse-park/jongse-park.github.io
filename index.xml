@@ -71,7 +71,7 @@
 &lt;li&gt;&lt;a href=&#34;https://milchstra3e.github.io&#34;&gt;Changhun Oh&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kimdaeun00.github.io&#34;&gt;Daeun Kim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sangyeop-lee.github.io&#34;&gt;Sangyeop Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shuangshuang Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cp.kaist.ac.kr/shuangshuang.zhao/&#34;&gt;Shuangshuang Zhao&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Janggun Lee&lt;/li&gt;
 &lt;li&gt;Minseong Jang&lt;/li&gt;
 &lt;li&gt;Jungin Rhee&lt;/li&gt;
@@ -87,7 +87,7 @@
 &lt;li&gt;&lt;a href=&#34;https://jiyong-j.github.io/&#34;&gt;Jiyong Jung&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://hymin13.github.io/about.html&#34;&gt;Yeongmin Hwang&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kimddong0069.github.io/&#34;&gt;Dongha Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Haechan An&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://anhaechan.github.io/&#34;&gt;Haechan An&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Gieun Jeong&lt;/li&gt;
 &lt;li&gt;Jeonghyeon Kim&lt;/li&gt;
 &lt;li&gt;Woojin Lee&lt;/li&gt;
@@ -115,6 +115,12 @@
       
       <guid>https://jongse-park.github.io/publications/</guid>
       <description>&lt;h2 id=&#34;span-stylefont-size-08em2025span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2025&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Pimba: A Processing-in-Memory Acceleration for Post-Transformer Large Language Model Serving&lt;/strong&gt;&lt;br&gt;
+&lt;span style=&#34;color:#666666&#34;&gt;Wonung Kim, Yubin Lee, Yoonsung Kim, Jinwoo Hwang, Seongryong Oh, Jiyong Jung, Aziz Huseynov, Woong Gyu Park, Chang Hyun Park, Divya Mahajan, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2025&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PyTorchSim: A Comprehensive, Fast, and Accurate NPU Simulation Framework&lt;/strong&gt;&lt;br&gt;
+&lt;span style=&#34;color:#666666&#34;&gt;Wonhyuk Yang, Yunseon Shin, Okkyun Woo, Geonwoo Park, Hyungkyu Ham, Jeehoon Kang, &lt;u&gt;Jongse Park&lt;/u&gt;, Gwangsun Kim&lt;/span&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2025&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Jinwoo Hwang, Daeun Kim, Sangyeop Lee, Yoonsung Kim, Guseul Heo, Hojoon Kim, Yunseok Jeong, Tadiwos Meaza, Eunhyeok Park, Jeongseob Ahn, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;VLDB&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/pdf/2506.14107&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
