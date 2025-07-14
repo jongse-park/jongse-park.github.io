@@ -71,7 +71,7 @@
 &lt;li&gt;&lt;a href=&#34;https://milchstra3e.github.io&#34;&gt;Changhun Oh&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kimdaeun00.github.io&#34;&gt;Daeun Kim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sangyeop-lee.github.io&#34;&gt;Sangyeop Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cp.kaist.ac.kr/shuangshuang.zhao/&#34;&gt;Shuangshuang Zhao&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://poppindouble.github.io/&#34;&gt;Shuangshuang Zhao&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lee-janggun.github.io/&#34;&gt;Janggun Lee&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Minseong Jang&lt;/li&gt;
 &lt;li&gt;Jungin Rhee&lt;/li&gt;
@@ -88,7 +88,7 @@
 &lt;li&gt;&lt;a href=&#34;https://hymin13.github.io/about.html&#34;&gt;Yeongmin Hwang&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://kimddong0069.github.io/&#34;&gt;Dongha Kim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://anhaechan.github.io/&#34;&gt;Haechan An&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gieun Jeong&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gieune.github.io&#34;&gt;Gieun Jeong&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jhyeon.kim&#34;&gt;Jeonghyeon Kim&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://woojinlee.github.io/&#34;&gt;Woojin Lee&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -128,7 +128,7 @@
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;VLDB&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/pdf/2506.14107&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Minsu Kim, Seongmin Hong, RyeoWook Ko, Soongyu Choi, Hunjong Lee, Junsoo Kim, Joo-Young Kim, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ISCA&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;../files/paper/2025-isca-oaken.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ISCA&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;../files/paper/2025-isca-oaken.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;MixDiT: Accelerating Image Diffusion Transformer Inference with Mixed-Precision MX Quantization&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Daeun Kim, Jinwoo Hwang, Changhun Oh, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;IEEE Computer Architecture Letters (CAL)&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;../files/paper/2025-cal-mixdit.pdf&#34;  style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
