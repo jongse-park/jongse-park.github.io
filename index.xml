@@ -115,13 +115,13 @@
       <description>&lt;h2 id=&#34;span-stylefont-size-08em2025span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2025&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Pimba: A Processing-in-Memory Acceleration for Post-Transformer Large Language Model Serving&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Wonung Kim, Yubin Lee, Yoonsung Kim, Jinwoo Hwang, Seongryong Oh, Jiyong Jung, Aziz Huseynov, Woong Gyu Park, &lt;br&gt;Chang Hyun Park, Divya Mahajan, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2025&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2507.10178?context=cs.AR&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;PyTorchSim: A Comprehensive, Fast, and Accurate NPU Simulation Framework&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Wonhyuk Yang, Yunseon Shin, Okkyun Woo, Geonwoo Park, Hyungkyu Ham, Jeehoon Kang, &lt;u&gt;Jongse Park&lt;/u&gt;, Gwangsun Kim&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2025&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Jinwoo Hwang, Daeun Kim, Sangyeop Lee, Yoonsung Kim, Guseul Heo, Hojoon Kim, Yunseok Jeong, Tadiwos Meaza, Eunhyeok Park, Jeongseob Ahn, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;VLDB&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/pdf/2506.14107&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;VLDB&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;../files/paper/2025-vldb-dejavu.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Minsu Kim, Seongmin Hong, RyeoWook Ko, Soongyu Choi, Hunjong Lee, Junsoo Kim, Joo-Young Kim, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ISCA&lt;/span&gt;, 2025&lt;/em&gt; [&lt;a href=&#34;../files/paper/2025-isca-oaken.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;|&lt;a href=&#34;../files/slide/2025-isca-oaken.pdf&#34; style=&#34;color: #FF8C00;&#34;&gt;Talk&lt;/a&gt;]&lt;/p&gt;
