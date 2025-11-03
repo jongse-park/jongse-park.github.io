@@ -4,8 +4,6 @@
   <url>
     <loc>https://jongse-park.github.io/experiences/</loc>
   </url><url>
-    <loc>https://jongse-park.github.io/people/</loc>
-  </url><url>
     <loc>https://jongse-park.github.io/publications/</loc>
   </url><url>
     <loc>https://jongse-park.github.io/teaching/</loc>
@@ -17,6 +15,9 @@
     <loc>https://jongse-park.github.io/contact/</loc>
   </url><url>
     <loc>https://jongse-park.github.io/authors/admin/</loc>
+  </url><url>
+    <loc>https://jongse-park.github.io/people/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://jongse-park.github.io/authors/</loc>
   </url><url>

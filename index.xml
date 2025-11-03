@@ -57,58 +57,6 @@
     </item>
     
     <item>
-      <title>People</title>
-      <link>https://jongse-park.github.io/people/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jongse-park.github.io/people/</guid>
-      <description>&lt;h5 id=&#34;phd-students&#34;&gt;Ph.D. Students&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jinuhwang.github.io/&#34;&gt;Jinwoo Hwang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://yoonsung-kim.github.io/&#34;&gt;Yoonsung Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kms040411.github.io/&#34;&gt;Minsu Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/guseul-heo/&#34;&gt;Guseul Heo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://milchstra3e.github.io&#34;&gt;Changhun Oh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kimdaeun00.github.io&#34;&gt;Daeun Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sangyeop-lee.github.io&#34;&gt;Sangyeop Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://poppindouble.github.io/&#34;&gt;Shuangshuang Zhao&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lee-janggun.github.io/&#34;&gt;Janggun Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minseongg.github.io/&#34;&gt;Minseong Jang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jirheee.github.io/jirheee/&#34;&gt;Jungin Rhee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://waneon.me/&#34;&gt;Wonung Kim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;ms-students&#34;&gt;M.S. Students&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://seongryong0726.github.io/&#34;&gt;Seongryong Oh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://yblee.site/&#34;&gt;Yubin Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jaehongcs20.github.io/&#34;&gt;Jaehong Cho&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hyuenmin-choi.github.io/&#34;&gt;Hyunmin Choi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://tr2-k.github.io/&#34;&gt;Namwoo Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jiyong-j.github.io/&#34;&gt;Jiyong Jung&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hymin13.github.io/about.html&#34;&gt;Yeongmin Hwang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://kimddong0069.github.io/&#34;&gt;Dongha Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://anhaechan.github.io/&#34;&gt;Haechan An&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gieune.github.io&#34;&gt;Gieun Jeong&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jhyeon.kim&#34;&gt;Jeonghyeon Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://woojinnn.github.io/&#34;&gt;Woojin Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://woojinnn.github.io/&#34;&gt;Woojin Lee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Yeongwook Kim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;Hyunsu Ye&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;undergraduate-students&#34;&gt;Undergraduate Students&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Yoonhyeong Lee (Winter 2024)&lt;/li&gt;
-&lt;li&gt;Hyungju Ahn (Fall 2025)&lt;/li&gt;
-&lt;li&gt;Chihyun Ahn (Winter 2025)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;alumni-ms&#34;&gt;Alumni (M.S.)&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Dohee Kim (Gradudated in Spring 2022)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>https://jongse-park.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -383,6 +331,69 @@ Systems&lt;/strong&gt;&lt;br&gt;
       
       <guid>https://jongse-park.github.io/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jongse-park.github.io/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jongse-park.github.io/people/</guid>
+      <description>&lt;h1 id=&#34;custom-widget&#34;&gt;Custom widget.&lt;/h1&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;h1 id=&#34;an-example-of-using-the-custom-widget-to-create-your-own-homepage-section&#34;&gt;An example of using the custom widget to create your own homepage section.&lt;/h1&gt;
+&lt;h1 id=&#34;to-create-more-sections-duplicate-this-file-and-edit-the-values-below-as-desired&#34;&gt;To create more sections, duplicate this file and edit the values below as desired.&lt;/h1&gt;
+&lt;p&gt;widget = &amp;ldquo;custom&amp;rdquo;  # Do not modify this line!
+active = false  # Activate this widget? true/false&lt;/p&gt;
+&lt;h1 id=&#34;note-a-full-width-section-format-can-be-enabled-by-commenting-out-the-title-and-subtitle-with-a-&#34;&gt;Note: a full width section format can be enabled by commenting out the &lt;code&gt;title&lt;/code&gt; and &lt;code&gt;subtitle&lt;/code&gt; with a &lt;code&gt;#&lt;/code&gt;.&lt;/h1&gt;
+&lt;p&gt;title = &amp;ldquo;People&amp;rdquo;
+subtitle = &amp;quot;&amp;quot;&lt;/p&gt;
+&lt;h1 id=&#34;order-that-this-section-will-appear-in&#34;&gt;Order that this section will appear in.&lt;/h1&gt;
+&lt;p&gt;weight = 40&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;h5 id=&#34;phd-students&#34;&gt;Ph.D. Students&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinuhwang.github.io/&#34;&gt;Jinwoo Hwang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yoonsung-kim.github.io/&#34;&gt;Yoonsung Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kms040411.github.io/&#34;&gt;Minsu Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/guseul-heo/&#34;&gt;Guseul Heo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://milchstra3e.github.io&#34;&gt;Changhun Oh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kimdaeun00.github.io&#34;&gt;Daeun Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sangyeop-lee.github.io&#34;&gt;Sangyeop Lee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://poppindouble.github.io/&#34;&gt;Shuangshuang Zhao&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lee-janggun.github.io/&#34;&gt;Janggun Lee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minseongg.github.io/&#34;&gt;Minseong Jang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jirheee.github.io/jirheee/&#34;&gt;Jungin Rhee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://waneon.me/&#34;&gt;Wonung Kim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;ms-students&#34;&gt;M.S. Students&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://seongryong0726.github.io/&#34;&gt;Seongryong Oh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yblee.site/&#34;&gt;Yubin Lee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jaehongcs20.github.io/&#34;&gt;Jaehong Cho&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hyuenmin-choi.github.io/&#34;&gt;Hyunmin Choi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tr2-k.github.io/&#34;&gt;Namwoo Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jiyong-j.github.io/&#34;&gt;Jiyong Jung&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hymin13.github.io/about.html&#34;&gt;Yeongmin Hwang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kimddong0069.github.io/&#34;&gt;Dongha Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://anhaechan.github.io/&#34;&gt;Haechan An&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gieune.github.io&#34;&gt;Gieun Jeong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jhyeon.kim&#34;&gt;Jeonghyeon Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://woojinnn.github.io/&#34;&gt;Woojin Lee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Yeongwook Kim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Hyunsu Ye&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;undergraduate-students&#34;&gt;Undergraduate Students&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Yoonhyeong Lee (Winter 2024)&lt;/li&gt;
+&lt;li&gt;Hyungju Ahn (Fall 2025)&lt;/li&gt;
+&lt;li&gt;Chihyun Ahn (Winter 2025)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;alumni-ms&#34;&gt;Alumni (M.S.)&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Dohee Kim (Gradudated in Spring 2022)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
