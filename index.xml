@@ -117,6 +117,9 @@
       
       <guid>https://jongse-park.github.io/publications/</guid>
       <description>&lt;h2 id=&#34;span-stylefont-size-08em2026span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2026&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Revisiting Partial Tracing for Safe, Efficient, and Concurrent Garbage Collection in Unmanaged Languages&lt;/strong&gt;&lt;br&gt;
+&lt;span style=&#34;color:#666666&#34;&gt;Jeonghyeon Kim, &lt;u&gt;Jongse Park&lt;/u&gt;, Youngjin Kwon, Jeehoon Kang&lt;/span&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;PLDI&lt;/span&gt;, 2026&lt;/em&gt; [&lt;a href=&#34;&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;LLMServingSim 2.0: A Unified Simulator for Heterogeneous and  Disaggregated LLM Serving Infrastructure&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Jaehong Cho, Hyunmin Choi, Guseul Heo, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;ISPASS&lt;/span&gt;, 2026&lt;/em&gt; [&lt;a href=&#34;&#34;&gt;Paper&lt;/a&gt;|&lt;a href=&#34;https://github.com/casys-kaist/LLMServingSim&#34; style=&#34;color: #009193;&#34;&gt;Code&lt;/a&gt;] (To Appear)&lt;/p&gt;
