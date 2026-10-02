@@ -118,7 +118,7 @@
       <description>&lt;h2 id=&#34;span-stylefont-size-08em2026span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2026&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Toward Agent-Driven Pathfinding for Heterogeneous LLM Serving System&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Wonung Kim, Hyunmin Choi, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;CHASM&lt;/span&gt;, 2026&lt;/em&gt; [Paper] (To Appear)&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;CHASM&lt;/span&gt;, 2026&lt;/em&gt; [&lt;a href=&#34;../files/paper/2026-chasm-pathfinding.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NELSSA: A GPU–PNM Heterogeneous System for Mixed-Length LLM Serving via Length–based Request Placement&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Sookyung Choi, Seungyong Lee, Kangkyu Park, Yunseo Chun, Junseok Lee, Hyeongseok Gwak, Myunghyun Rhee, Euiseok Kim, Donguk Moon, Kwangsik Shin, Guseul Heo, Youngpyo Joo, Hoshik Kim, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
 &lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;MICRO&lt;/span&gt;, 2026&lt;/em&gt; [&lt;a href=&#34;../files/paper/2026-micro-nelssa.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
