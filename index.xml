@@ -19,21 +19,24 @@
       <guid>https://jongse-park.github.io/experiences/</guid>
       <description>&lt;h5 id=&#34;professor&#34;&gt;Professor&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;KAIST&lt;/em&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;KAIST&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mar. 2024 - present: Associate Professor, CASYS Lab, SoC&lt;/li&gt;
 &lt;li&gt;Dec. 2019 - Feb. 2024: Assistant Professor, CASYS Lab, SoC&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Stanford University&lt;/em&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Stanford University&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Jan. 2025 - Jan. 2026: Visiting Associate Professor, Pervasive Parallelism Lab, EECS&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;engineer&#34;&gt;Engineer&lt;/h5&gt;
+&lt;h5 id=&#34;industry&#34;&gt;Industry&lt;/h5&gt;
 &lt;ul&gt;
-&lt;li&gt;Aug. 2018 - Nov. 2019: Acceleration Solution Architect, Bigstream Solution, Inc.&lt;/li&gt;
+&lt;li&gt;May. 2026 - present: Founder &amp;amp; CEO, AnyBridge Inc.&lt;/li&gt;
+&lt;li&gt;Aug. 2018 - Nov. 2019: AI System Architect, Bigstream Solution, Inc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5 id=&#34;research-assistant&#34;&gt;Research Assistant&lt;/h5&gt;
 &lt;ul&gt;
@@ -118,7 +121,7 @@
       <description>&lt;h2 id=&#34;span-stylefont-size-08em2027span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2027&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Wonung Kim, Hyunmin Choi, Minsu Kim, Jaehong Cho, Yeongwook Kim, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
-&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;HPCA&lt;/span&gt;, 2027&lt;/em&gt; [&lt;a href=&#34;../files/paper/2027-hpca-simthesizer.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;] (To Appear)&lt;/p&gt;
+&lt;em&gt;&lt;span style=&#34;color:#770001;&#34;&gt;HPCA&lt;/span&gt;, 2027&lt;/em&gt; [&lt;a href=&#34;../files/paper/2027-hpca-simthesizer.pdf&#34; style=&#34;color: #1D90FF;&#34;&gt;Paper&lt;/a&gt;|&lt;a href=&#34;https://simthesizer.ai&#34; style=&#34;color: #009193;&#34;&gt;Code&lt;/a&gt;] (To Appear)&lt;/p&gt;
 &lt;h2 id=&#34;span-stylefont-size-08em2026span&#34;&gt;&lt;span style=&#34;font-size: 0.8em;&#34;&gt;2026&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Toward Agent-Driven Pathfinding for Heterogeneous LLM Serving Systems&lt;/strong&gt;&lt;br&gt;
 &lt;span style=&#34;color:#666666&#34;&gt;Wonung Kim, Hyunmin Choi, &lt;u&gt;Jongse Park&lt;/u&gt;&lt;/span&gt;&lt;br&gt;
